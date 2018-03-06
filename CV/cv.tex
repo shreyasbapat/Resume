@@ -1,0 +1,179 @@
+\documentclass[a4paper,10pt]{article}
+
+%A Few Useful Packages
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{xunicode,xltxtra,url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+% an alternative to Layaureo can be ** \usepackage{fullpage} **
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+%FONTS
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin}
+%%% modified for Karol Kozioł for ShareLaTeX use
+\setmainfont[
+SmallCapsFont = Fontin-SmallCaps.otf,
+BoldFont = Fontin-Bold.otf,
+ItalicFont = Fontin-Italic.otf
+]
+{Fontin.otf}
+%%%
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+%Tweak a bit the top margin
+%\addtolength{\voffset}{-1.3cm}
+
+%Italian hyphenation for the word: ''corporations''
+\hyphenation{im-pre-se}
+
+%-------------WATERMARK TEST [**not part of a CV**]---------------
+\usepackage[absolute]{textpos}
+
+\setlength{\TPHorizModule}{30mm}
+\setlength{\TPVertModule}{\TPHorizModule}
+\textblockorigin{2mm}{0.65\paperheight}
+\setlength{\parindent}{0pt}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+
+%WATERMARK TEST [**not part of a CV**]---------------
+%\font\wm=''Baskerville:color=787878'' at 8pt
+%\font\wmweb=''Baskerville:color=FF1493'' at 8pt
+%{\wm 
+%	\begin{textblock}{1}(0,0)
+%		\rotatebox{-90}{\parbox{500mm}{
+%			Typeset by Alessandro Plasmati with \XeTeX\  \today\ for 
+%			{\wmweb \href{http://www.aleplasmati.comuv.com}{aleplasmati.comuv.com}}
+%		}
+%	}
+%	\end{textblock}
+%}
+
+\pagestyle{empty} % non-numbered pages
+
+\font\fb=''[cmr10]'' %for use with \LaTeX command
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge Shreyas \textsc{Bapat}
+	}\bigskip\par}
+
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Personal Data}
+
+\begin{tabular}{rl}
+    \textsc{Place and Date of Birth:} & Gwalior, India  | 09 April 1999 \\
+    \textsc{Address:}   & 101,G3,Suvalsar Hostel, South Campus, IIT Mandi, Mandi, India-175005 \\
+    \textsc{Phone:}     & +91 9736210570\\
+    \textsc{email:}     & \href{mailto:b16145@students.iitmandi.ac.in}{b16145@students.iitmandi.ac.in}\\
+    \textsc{email:}     & \href{mailto:bapat.shreyas@gmail.com}{bapat.shreyas@gmail.com}\\
+    \textsc{Website:}     & \href{https://students.iitmandi.ac.in/~b16145}{https://students.iitmandi.ac.in/~b16145}\\
+    \textsc{Github:}     & \href{https://github.com/shreyasbapat}{https://github.com/shreyasbapat}
+\end{tabular}
+
+%Section: Work Experience at the top
+\section{Work Experience}
+\begin{tabular}{r|p{11cm}}
+ \emph{Current} & Teaching Assistant in \textsc{IC250}-Programming and Data Structure Practicum \\\textsc{Feb 2018}&\emph{Indian Institute of Technology , Mandi}\\\multicolumn{2}{c}{} \\
+\end{tabular}
+%Section: Work Experience at the top
+\section{Positions of Responsibilities}
+\begin{tabular}{r|p{11cm}}
+ \emph{Current} & Co-ordinator at \textsc{Space Technology and Astronomy Cell} IIT Mandi \\\textsc{July 2017}&\emph{Science and Technology Council(SnTC), Student Gymkhana}\\\multicolumn{2}{c}{} \\
+  \emph{Current} & Core Team Member at \textsc{Robotronics Club} IIT Mandi \\\textsc{July 2017}&\emph{Science and Technology Council(SnTC), Student Gymkhana}\\\multicolumn{2}{c}{} \\
+  \emph{Apr 2017} & Event Co-ordinator at \textsc{Exodia 2k17} IIT Mandi \\\textsc{Feb 2017}&\emph{Strip-Mics}\\\multicolumn{2}{c}{} \\
+
+\end{tabular}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{r | l}	
+ \emph{Current} & Bachelor of Technology, \textbf{Indian Institute of Technology Mandi}, India\\
+\textsc{August} 2016  &    Major: Electrical Engineering\\
+%& Thesis: ``Sublinear and Locally Sublinear Prices'' | \small Advisor: Prof. Erio \textsc{Castagnoli}\\
+&\normalsize \\\\
+
+\textsc{July} 2016& Senior School Certificate Exam  , \normalsize\textbf{Central Board of Secondary Education}, New Delhi\\
+%& Thesis: ``Portfolio Strategies with Target Prices'' | \small Advisor: Stefano \textsc{Bonini}\\
+&\normalsize \textsc{Percentage}: 93.4\hyperlink{grds_cleli}{\hfill \footnotesize }\\&\\
+\textsc{July} 2014& Secondary School Certificate Examination,  \textbf{Central Board of Secondary Education}, New Delhi\\
+&\textsc{CGpa}: 10/10 \hyperlink{grds_usc}{\hfill \footnotesize}\\&\\
+
+\end{tabular}
+\section{Publications}
+\begin{enumerate}
+\item Aggarwal, V., \textbf{Bapat, S.}, Kadela, N., Kumar, P., Matta, R., Yadav, N. (June 2017) “Projecthiko 1.O - The Voice and Internet Enabled Smart Home” IJETSR ISSN: 2394-3386.
+\end{enumerate}
+
+%Section: Scholarships and additional info
+\section{Projects}
+\begin{tabular}{rl}
+ \textsc{Dec.} 2016 & Distributed Electrical Generation \footnotesize( Under the guidance of Dr. Ramesh Oruganti , Emeritus Professor, IIT Mandi)\normalsize\\
+\textsc{Jan.} 2017 & {\textsc{Baikart}\textregistered}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}:  (\textsc{An online platform}) Hiring Servants and related issues.\\
+\textsc{June} 2017 & {Projecthiko 1.O - The Voice and Internet Enabled Smart Home}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}:  (\textsc{IOT and Voice Recognition}) \\
+\textsc{July} 2017 & {Night Sky Object Randomizer}\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}  \\
+\textsc{Nov} 2017 & {Exoplanet Detection\footnotesize( Classification of stars and exoplanets and not using Machine Learning}\\
+\textsc{Dec} 2017 & {Orbital Simulator\footnotesize( Simulating the orbits of various asteroids and making a program to compute the collisions}\\
+\textsc{Jan} 2018 & {Fabric Detection - Classification and Matching \footnotesize( Detection and Classification of Fabrics by Deep Learning)} \\
+\textsc{Jan} 2018 & {Alt-Az Generator \footnotesize( Live alt-az generator for any object in sky for automating a telescope)} \\
+\textsc{Current} & {Detection of Egocentric Video and Non-Egocentric Video } \\
+\end{tabular}
+
+\section{Course Work}
+IC150 - Computation for Engineers\\
+IC250 - Programming and Data Structure Practicum\\
+IC161 - Applied Electronics\\
+CS202 - Data Structure and Algorithms\\
+EE311 - Device Electronics for Integrated Circuits\\
+IC260 - Signals and Systems
+
+%Section: Languages
+\section{Languages}
+\begin{tabular}{rl}
+ \textsc{Marathi:}&Mothertongue\\
+\textsc{English:}&Fluent\\
+\textsc{Hindi:}&Fluent\\
+\end{tabular}
+
+\section{Computer Skills}
+\begin{tabular}{rl}
+ Basic Knowledge:&  my\textsc{sql}, Java , JavaScript, Flask \setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin.otf}\\
+Intermediate Knowledge:& \textsc{php}, C, HTML, CSS, {\fb \LaTeX}, C++, Linux-Ubuntu, Python\\
+\end{tabular}
+
+\section{Interests and Activities}
+Deep Learning, Open-Source, Programming, Machine Learning, Software Development\\
+Astronomy, Astrophysics, Sky-Gazing, Theory of Relativity, Astrodynamics\\
+Football, Cricket, Travelling, Hiking
+
+\section{Awards}
+\begin{enumerate}
+\item Aryabhat Astronomy Quiz - Rank - 5 | 2013
+\item Aryabhat Astronomy Quiz - Rank - 2 | 2014
+%\item JEE (Advanced) 2016 - AIR 6517
+\item 5th Inter IIT Tech Meet | Eyes on the Sky | 4th Position for IIT Mandi | 2017
+\item 1st Prize Technex, IIT BHU | Event - Exploring the Interstellar | 2017
+\item Presented a Paper in International Conference ICETSMI in IETE, Delhi.
+\item 6th Inter IIT Tech Meet | Orbital Simulator | 5th Position for IIT Mandi | 2018
+\end{enumerate}
+
+%\newpage
+%\hypertarget{gmat}{\textsc{Gmat}\setmainfont{LMRoman10 Regular}\textregistered\setmainfont[SmallCapsFont=Fontin-SmallCaps]{Fontin-Regular}}
+
+%\XeTeXpdffile ''GMAT.pdf'' page 1 scaled 800
+
+\end{document}
