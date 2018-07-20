@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.6.7)  10 JUN 2018 23:19
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.7.20)  20 JUL 2018 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -200,6 +200,30 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.22 \item {
+            CGPA : 7.51/10}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+
+! LaTeX Error: Lonely \item--perhaps a missing list environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 \item {
             Got an award for valuable contribution in Technical Society at I...
 
 Try typing  <return>  to proceed.
@@ -280,7 +304,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 \end{cvitems}
+l.24 \end{cvitems}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -293,7 +317,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \end{cventries}
+l.29 \end{cventries}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -308,10 +332,10 @@ or  <return>  to continue without it.
  
 Here is how much of TeX's memory you used:
  8 strings out of 493007
- 88 string characters out of 6136720
- 61819 words of memory out of 5000000
+ 88 string characters out of 6136719
+ 61806 words of memory out of 5000000
  4079 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 7i,1n,7p,105b,40s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 7i,1n,7p,105b,42s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.

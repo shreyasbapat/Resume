@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.6.7)  28 JUN 2018 17:23
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.7.20)  20 JUL 2018 22:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**resume_cv.tex
-(./resume_cv.tex
+**2Page.tex
+(./2Page.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (./awesome-cv.cls
@@ -1078,8 +1078,8 @@ tly
 LaTeX Info: Redefining \FA on input line 164.
 \g__fontspec_family_Roboto_int=\count294
 )
-(./resume_cv.aux)
-\openout1 = `resume_cv.aux'.
+(./2Page.aux)
+\openout1 = `2Page.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
 LaTeX Font Info:    ... okay on input line 73.
@@ -1199,9 +1199,9 @@ LaTeX Info: Redefining \ref on input line 73.
 LaTeX Info: Redefining \pageref on input line 73.
 LaTeX Info: Redefining \nameref on input line 73.
 
-(./resume_cv.out) (./resume_cv.out)
+(./2Page.out) (./2Page.out)
 \@outlinefile=\write6
-\openout6 = `resume_cv.out'.
+\openout6 = `2Page.out'.
 
 \headertextwidth=\skip79
 \headerphotowidth=\skip80
@@ -1228,31 +1228,46 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
 (Font)              scaled to size 16.0pt on input line 5.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
-(Font)              scaled to size 10.0pt on input line 24.
+(Font)              scaled to size 10.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 24.
+t line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 24.
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <8> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 24.
+t line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 24.
+(Font)              scaled to size 8.0pt on input line 25.
 ) (./cv-sections/skills.tex
-Overfull \hbox (28.25247pt too wide) in alignment at lines 11--33
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.00014pt on input line 29.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.00009pt on input line 29.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 29.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.99986pt on input line 29.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.99991pt on input line 29.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 29.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 29.
+
+Overfull \hbox (28.25247pt too wide) in alignment at lines 11--39
 [] [] 
  []
 
@@ -1289,17 +1304,17 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/bx/n' will be
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
 
-(./resume_cv.aux)
+(./2Page.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 99.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 37921 strings out of 493007
- 747616 string characters out of 6136720
- 957944 words of memory out of 5000000
- 41405 multiletter control sequences out of 15000+600000
- 532706 words of font info for 80 fonts, out of 8000000 for 9000
+ 37945 strings out of 493007
+ 748533 string characters out of 6136719
+ 957932 words of memory out of 5000000
+ 41417 multiletter control sequences out of 15000+600000
+ 534012 words of font info for 92 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 72i,12n,89p,10428b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,12n,89p,10424b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on resume_cv.pdf (2 pages).
+Output written on 2Page.pdf (2 pages).
