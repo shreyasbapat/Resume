@@ -1,9 +1,3 @@
-%-------------------------
-% Resume in Latex
-% Author : Sourabh Bajaj
-% License : MIT
-%------------------------
-
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -75,7 +69,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://shreyasb.com/}{\Large Shreyas Bapat}} & Email : \href{mailto:contact@shreyasb.com}{b16145@students.iitmandi.ac.in}\\
-  \href{https://shreyasb.com/}{https://shreyasb.com} & Mobile : +91-913-185-1172 \\
+  \href{https://shreyasb.com/}{https://shreyasb.com} & Mobile : +91-913-185-1172 & \href{https://github.com/shreyasbapat/}{GitHub: shreyasbapat} & \href{https://www.linkedin.com/in/shreyasbapat}{LinkedIn: shreyasbapat} \\
 \end{tabular*}
 
 
@@ -94,8 +88,14 @@
 \section{Publications}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Indian Institute of Technology Mandi}{Mandi, India}
-      {Bachelor of Technology in Electrical Engineering;  CGPA: 7.51/10.0}{Aug. 2016 -- Present}
+      {Projecthiko 1.O - The Voice and Internet Enabled Smart Home}{IJETSR- ISSN 2394 3386}
+      {Author}{Volume 4, Issue 6 | June 2017}
+      \resumeItemListStart
+        \resumeItem{Cost Enhancements}
+          {Deviced a very cheap and efficient way of making a home smart.}
+        \resumeItem{Flask, Google Speech}
+          {Used Flask and HTML,CSS to create a web interface for handling the resources in home. Flask is a python based framework that can provide a stable backend to websites. Also implemeted the Google Speech API to access the voice inputs of the user.}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
@@ -104,58 +104,29 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
+      {Poliastro - OpenAstronomy}{Barcelona, Spain}
+      {Software Development Intern}{May 2018 - Present}
       \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+        \resumeItem{pypi release 0.10}
+          {Worked for the 0.10 release of poliastro.}
+        \resumeItem{Backends for Orbit Plotting}
+          {Restructured the whole plotting module and created two different backends for plotting. One using plotly and the other using mat-
+plotlib.}
+		\resumeItem{2D Interactive Plotting}
+		{Created a class for 2D plotting using plotly. This created interactive 2D plotting for orbits.}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
-      \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-      \resumeItemListEnd
+   
 
     \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
+      {Indian Institute of Technology Mandi}{Mandi, India}
+      {Teaching Assistant}{Feb. 2018 - Jun. 2018}
       \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
+        \resumeItem{Programming and Data Structures Practicum}
+          {Helped students understand complex Data Structures and Algorithms. Cleared their doubts for DS implementations in C}
       \resumeItemListEnd
 
-    \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
-      \resumeItemListStart
-        \resumeItem{Research Assistant - Machine Learning}
-          {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
-        \resumeItem{Teaching Assistant - Computational Investing}
-          {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
-      \resumeItemListEnd
+
 
   \resumeSubHeadingListEnd
 
@@ -163,26 +134,57 @@
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-    \resumeSubItem{Mac Setup}
-      {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+    \resumeSubItem{poliastro}
+      {Open source python library for astrodynamics.}
+    \resumeSubItem{Intelligent Fabric Detection and Classification}
+      {A Deep Learning Model to identify the fabric and classify it into different classes. Data Based Training.}
+    \resumeSubItem{Ayushman Bhava}
+      {A smart medical vending machine with video conferencing with doctor, Payment gateway enabled for online payment. Deep Learning for Cash detection.}
+    \resumeSubItem{Exoplanet Detection}
+      {A Machine Learning based prediction model which predicts the presense of Exoplanets on a star by the brightness data of that star over a long period of time.}
   \resumeSubHeadingListEnd
 
-%
+
 %--------PROGRAMMING SKILLS------------
-%\section{Programming Skills}
-%  \resumeSubHeadingListStart
-%    \item{
-%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-%      \hfill
-%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-%    }
-%  \resumeSubHeadingListEnd
+\section{Programming Skills}
+\resumeSubHeadingListStart
+    \resumeSubItem{Languages}
+      {Python, C/C++, shell, NASM, Erlang, JavaScript, Dart(Flutter), MySQL}
+    \resumeSubItem{Web}
+      {Flask, Dash, HTML5, ,CSS3, Materialize, JavaScript, Django}
+    \resumeSubItem{Markup}
+      {\LaTeX, Markdown, ReStructured Text, YAML}
+    \resumeSubItem{Technologies and Libraries}
+      {git, mercurial, PyCharm, plotly, mayavi, Tensorflow, Keras, numba JIT}
+  \resumeSubHeadingListEnd
+  
+%-----------PRESENTATIONS-----------------
+\section{Presentations and Talks}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Astronomy Code Camp - Nehru Planetarium, Delhi}{New Delhi, India}
+      {Mentor and Presenter}{Jun. 2018}
+      \resumeItemListStart
+        \resumeItem{Scientific Computing}
+          {Introduction to various scientific computing packages such as poliastro, astropy, pyephem to the participants.}
+      \resumeItemListEnd
+
+   
+
+    \resumeSubheading
+      {6th ICETSMI-2017}{IETE, Delhi, India}
+      {Presenter in 6th International Conference on Eng. Tech., Science and Mngmt. Innovation}{Jun. 2017}
+      \resumeItemListStart
+        \resumeItem{Paper Presentation}
+          {Presented the paper titled, ”ProjectHiko1.O - The Voice and Internet Enabled Smart Home” at the conference.}
+      \resumeItemListEnd
+
+
+
+  \resumeSubHeadingListEnd
+
+
 
 
 %-------------------------------------------
