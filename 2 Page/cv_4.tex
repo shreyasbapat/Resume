@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Shreyas Bapat} % Your name
+\address{https://shreyasb.com, GitHub: shreyasbapat} % Your address
+\address{LinkedIn: shreyasbapat, Twitter: astroshreyas} % Your secondary addess (optional)
+\address{(+91)~$\cdot$~9131~$\cdot$~851172 \\ bapat.shreyas@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Indian Institute of Technology Mandi} \hfill {\em August 2016  - Present} \\ 
+B.Tech. in Electrical Engineering \\
+Overall GPA:  7.3 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICAIONS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publications}
+
+%\begin{rSubsection}{EinsteinPy : Python in General Relativity}{Drafted}{Shreyas Bapat et.al.}{AAS APJ}
+%\item Introduction to EinsteinPy 0.2.0. Description of EinsteinPy and how computations are done.  
+%\item Description of relativistic orbit simulation, for Schwarzschild, Kerr and Kerr-Newman black holes. Geodesic computations and symbolic calculations of General Relativity.
+ %\end{rSubsection}
+
+\begin{rSubsection}{ProjectHiko 1.O - The Voice and Internet Enabled Smart Home}{June 2017}{Shreyas Bapat et.al.}{IJETSR ISSN: 2394-3386}
+\item Cost Reduction in home automation. Complete set of home automation with fairly interactive voice assistant, and a web based interface under \$40. 
+ \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Siemens Technology and Services Pvt. Ltd.}{June 2019 - Present}{Software Research Intern}{Bengaluru, India}
+\item Benchmarking CycleGAN and MUNIT against similar problem and finding the benefit of Cycle Consistency Loss.
+\item Working on solution to find coverage of a Neural Network.
+\item Exposing Heat Maps of a Neural Network Model.
+\item Implementing GradCAM to find Class Activation Maps of Object Detection Models for cause of Explainable AI
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Siemens Technology and Services Pvt. Ltd.}{December 2018 - February 2019}{Software Research Intern}{Bengaluru, India}
+\item Using generative models for test data generation. Exploring active learning
+for automatic data labelling.
+\item Understanding and exploring best approaches for style transfer of images.
+\item Using cycle consistency loss (CycleGAN) for style transfer due to lack of paired data. Understanding the convergence criteria of CycleGAN..
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Ankam}{August 2018 - November 2018}{Deep Learning Intern}{Remote}
+\item Implementing transfer learning to classify images of human eyes using
+ResNet50 for Diabetic Retinopathy Detection.
+\item Using regression models to predict various charachteristics of a person from Retina images. 
+\item Creating a scalable web-app to take image input and show results using Docker Swarm.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{poliastro - OpenAstronomy}{May 2018 - July 2018}{Deep Learning Intern}{Remote}
+\item Implemented interactive 2D plotting, re factoring the plotting module to
+create backends and orbit simulation. Fixed hyperbolic orbits.
+\item Developed a module for DASTCOM5 being used by scientists in ESA (European Space Agency) to simulate orbits of various objects in space.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+
+\begin{rSubsection}{EinsteinPy : Python in General Relativity}{Drafted}{Shreyas Bapat et.al.}{AAS APJ}
+\item Introduction to EinsteinPy 0.2.0. Description of EinsteinPy and how computations are done.  
+\item Description of relativistic orbit simulation, for Schwarzschild, Kerr and Kerr-Newman black holes. Geodesic computations and symbolic calculations of General Relativity.
+ \end{rSubsection}
+
+\begin{rSubsection}{ProjectHiko 1.O - The Voice and Internet Enabled Smart Home}{June 2017}{Shreyas Bapat et.al.}{IJETSR ISSN: 2394-3386}
+\item Cost Reduction in home automation. Complete set of home automation with fairly interactive voice assistant, and a web based interface under \$40. 
+ \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Python, C, C++, Rust, Erlang, Go, Dart, Lua \\
+Frameworks & Flask, Django, Dash, NodeJS, Pytorch, Keras\\
+Protocols \& APIs & XML, JSON, SOAP, REST \\
+Databases & MySQL, PostgreSQL \\
+Tools & Docker, Nginx, nano, vim
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	POR SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Positions of Responsibilities}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Debian}{April 2019 - Present}{Maintainer of Debian Astro Team}{Debian Astro Pure Blend}
+\item Packaging new softwares related to Debian Astro Pure Blend.
+\item Actively maintaining softwares  and packaging them for Debian/Ubuntu/Mint.
+\item Packaging EHTImaging (Software used to generate Black Hole Image in 2019) with MIT CSAIL.
+\end{rSubsection}
+
+\begin{rSubsection}{European Space Agency}{June 2019 - September 2019}{Organisation Admin and Project Mentor SOCIS 2019}{The EinsteinPy Project}
+\item Mentored a student throughout the summer for a Summer of Code project.
+\item Organized and managed the whole EinsteinPy Organization for ESA's Summer of Code in Space.
+ \end{rSubsection}
+
+\begin{rSubsection}{Space Technology and Astronomy Cell}{June 2017 - June 2018}{Co-ordinator}{SnTC, IIT Mandi}
+\item Awarded as the best technical society coordinator of the year 2017-18. 
+ \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
