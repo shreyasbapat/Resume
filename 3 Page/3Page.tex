@@ -1,0 +1,243 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+\name{Shreyas Bapat} % Your name
+\address{https://shreyasb.com \\ GitHub: shreyasbapat} % Your address
+\address{LinkedIn: shreyasbapat \\ Twitter: astroshreyas} % Your secondary addess (optional)
+\address{(+91)~$\cdot$~9131~$\cdot$~851172 \\ bapat.shreyas@gmail.com} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Indian Institute of Technology Mandi} \hfill {\em August 2016  - Present} \\ 
+B.Tech. in Electrical Engineering \\
+Overall GPA:  7.34\\
+$*$  Awarded a travel grant to attend Python in Astronomy 2019 conference. 
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICAIONS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Publications}
+
+%\begin{rSubsection}{EinsteinPy : Python in General Relativity}{Drafted}{Shreyas Bapat et.al.}{AAS APJ}
+%\item Introduction to EinsteinPy 0.2.0. Description of EinsteinPy and how computations are done.  
+%\item Description of relativistic orbit simulation, for Schwarzschild, Kerr and Kerr-Newman black holes. Geodesic computations and symbolic calculations of General Relativity.
+ %\end{rSubsection}
+
+\begin{rSubsection}{ProjectHiko 1.O - The Voice and Internet Enabled Smart Home}{June 2017}{Shreyas Bapat et.al.}{IJETSR ISSN: 2394-3386}
+\item Cost Reduction in home automation. Complete set of home automation with fairly interactive voice assistant, and a web based interface under \$40. 
+ \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+
+\begin{rSubsection}{Siemens Technology and Services Pvt. Ltd.}{June 2019 - July 2019}{Software Research Intern}{Bengaluru, India}
+\item Benchmarking CycleGAN and MUNIT against similar problem and finding the benefit of Cycle Consistency Loss.
+\item Working on solution to find coverage of a Neural Network.
+\item Exposing Heat Maps of a Neural Network Model.
+\item Implementing GradCAM to find Class Activation Maps of Object Detection Models for cause of Explainable AI
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Siemens Technology and Services Pvt. Ltd.}{December 2018 - February 2019}{Software Research Intern}{Bengaluru, India}
+\item Using generative models for test data generation. Exploring active learning
+for automatic data labelling.
+\item Understanding and exploring best approaches for style transfer of images.
+\item Using cycle consistency loss (CycleGAN) for style transfer due to lack of paired data. Understanding the convergence criteria of CycleGAN..
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Ankam}{August 2018 - November 2018}{Deep Learning Intern}{Remote}
+\item Implementing transfer learning to classify images of human eyes using
+ResNet50 for Diabetic Retinopathy Detection.
+\item Using regression models to predict various charachteristics of a person from Retina images. 
+\item Creating a scalable web-app to take image input and show results using Docker Swarm.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{poliastro - OpenAstronomy}{May 2018 - July 2018}{Summer Developer}{Remote}
+\item Implemented interactive 2D plotting, re factoring the plotting module to
+create backends and orbit simulation. Fixed hyperbolic orbits.
+\item Developed a module for DASTCOM5 being used by scientists in ESA (European Space Agency) to simulate orbits of various objects in space.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	POR SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Positions of Responsibilities}
+
+%------------------------------------------------
+
+\begin{rSubsection}{European Space Agency}{June 2019 - September 2019}{Organization Administrator and Project Mentor SOCIS 2019}{The EinsteinPy Project}
+\item Mentored a student throughout the summer for a Summer of Code project titled "Visualising Relativity using EinsteinPy". 
+\item EinsteinPy was among 17 organizations that got sponsored by European Space Agency for Summer Program.
+\item Organized and managed the whole EinsteinPy Organization for ESA's Summer of Code in Space.
+ \end{rSubsection}
+ 
+\begin{rSubsection}{Debian}{August 2019 - Present}{Managing Member}{Python Software Foundation}
+\item Packaging new softwares related to Debian Astro Pure Blend.
+\item Actively maintaining softwares  and packaging them for Debian/Ubuntu/Mint.
+\item Packaging HelioPy, EinsteinPy etc. for Debian Package Management System.
+\end{rSubsection}
+
+
+\begin{rSubsection}{Debian}{April 2019 - Present}{Maintainer of Debian Astro Team}{Debian Astro Pure Blend}
+\item Packaging new softwares related to Debian Astro Pure Blend.
+\item Actively maintaining softwares  and packaging them for Debian/Ubuntu/Mint.
+\item Packaging EHTImaging (Software used to generate Black Hole Image in 2019) with MIT CSAIL.
+\end{rSubsection}
+
+
+
+\begin{rSubsection}{Space Technology and Astronomy Cell}{June 2017 - June 2018}{Co-ordinator}{SnTC, IIT Mandi}
+\item Awarded as the best technical society coordinator of the year 2017-18. 
+ \end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%OPEN SOURCE 	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Open Source Projects / Community Projects}
+
+\begin{rSubsection}{The EinsteinPy Project}{Jan 2019 - Present}{Python for General Relativity}{OpenAstronomy}
+\item Founder of the Python Library for computations related to general relativity!.
+\item  Project partly sponsored by European Space Agency's ESTEC Office of Advance Studies and Python Software Foundation for the computational needs. 
+\item EinsteinPy gives a very easy API to solve some problems like Geodesic calculations, understanding various geometries, binary black hole simulations. 
+\item Every module is tested before adding to the master branch with the test coverage 94\%. API Documentation, user guide and otherimportant details are made using sphinx and reSrtuctured Text
+\item EinsteinPy is completely developed on a Linux system and is tested on Linux, Windows and OS X. It can be installed via conda, pip or apt!
+\item Multiple Continuous Integration frameworks are integrated to check linting,running unit tests, building docs, checking coverage and generating coverage report.
+ \end{rSubsection}
+
+\begin{rSubsection}{poliastro}{Dec 2018 - Present}{Astrodynamics in Python}{OpenAstronomy}
+\item Core Developer of the Python Library for orbital mechanics and astrodynamics.
+\item  It tries to solve the problems like orbit propagation, solution of the Lambert's problem, conversion between position and velocity vectors and classical orbital elements and orbit plotting, focusing on interplanetary applications
+\item Contributed some core algorithms and a 2D interactive plotting module to the library.
+ \end{rSubsection}
+ 
+   \begin{rSubsection}{pytorch-lightning}{Dec 2018 - Present}{William Falcon, Shreyas Bapat}{New York University}
+\item Developing a deep learning framework like keras for pytorch. 
+\item  Pytorch allows a lot of flexibility for research and it is a clear choice of researchers.
+\item Everything is controlled by lightning, no need of defining a training loop, validation loop, gradient clipping, checkpointing, loading, gpu training, etc.
+\item Packaged the python library for PyPI. 
+ \end{rSubsection}
+ 
+ \begin{rSubsection}{python-oifits}{July 2018 - Present}{Making OIFITS easy for Radio Astronomers}{IIT Mandi}
+\item Created a python module for reading and writing OIFITS data files.
+\item Making data analysis easy for radio astronomers and data scientists.  There is no actively maintained package that can take care of OIFITS data. 
+\item Writing the documentation, setting up the CI, writing unit tests is the main responsibility. 
+ \end{rSubsection}
+ 
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Research / Academic Projects}
+
+\begin{rSubsection}{VLBI Image Reconstruction}{July 2019 - Present}{Prof. Arnav Bhavsar, Dr. Redouane Boumghar}{SCEE, IIT Mandi}
+\item The task of creating an image from a Event Horizon Telescope  is very big! It attempts to create a telescope of size of earth and tries to image objects billions of light years far away.
+\item  Due to very less telescopes on earth, we only get a very partial fourier space. The task is to reconstruct the image using the available data.  
+\item On completion, a possibility of a better Black Hole image is there. A python module for reading OIFITS data is created.
+ \end{rSubsection}
+
+\begin{rSubsection}{k-space MRI Reconstruction}{Feb 2019 - June 2019}{Prof. Aditya Nigam, Prof. Arnav Bhavsar}{CS671, IIT Mandi}
+\item MR Images are never reconstructed in Fourier Space, even when the data is collected in Fourier Space.  Handling imaginary part of frequencies is hard.
+\item  Deviced a method to pack the imaginary and real part in a single value so as enabling the neural network to work well.
+\item Then used residual learning in a convolutional encoder-decoder type network along with a network for Fourier Transform to produce MR Images.
+ \end{rSubsection}
+ 
+   \begin{rSubsection}{Keyboard Macros}{Feb 2019 - June 2019}{Prof. Timothy A. Gonsalves, Prof. Aditya Nigam}{SCEE, IIT Mandi}
+\item Developed a kernel module to implement keyboard macros.
+\item  Used the proc file system for modifications in kernel space from a GUI for adding/editing/removing macros.
+\item Created Tkinter based GUI for managing macros! Possibility for Exporting and Importing macros from other systems.
+ \end{rSubsection}
+ 
+
+\begin{rSubsection}{Egocentric - Non egocentric Video Classification}{Feb 2018 - June 2018}{Prof. Aditya Nigam}{SCEE, IIT Mandi}
+\item Classification of videos based on for where the camera was held to film them is not a trivial task. There are minute patterns that change in each application! 
+\item  Created Optical Flows using Flownet2 and later applied a CNN classifier involving ResNet50 (pretrained) and fine tuned the weights and bias metrics .
+ \end{rSubsection}
+ 
+ \begin{rSubsection}{Fabric Classification and Matching}{Nov 2017 - Jan 2018}{Prof. Aditya Nigam}{SCEE, IIT Mandi}
+\item Developed a complete framework for fabric matching, classification and clustering. 
+\item  Used a ResNet50 architecture for classification and tSNE for clustering.
+\item Classification was done on the already generated encodings from the encoder model trained separately.
+\item A siamese network was trained separately so as to match two fabrics and give a match score!
+ \end{rSubsection}
+ 
+ \end{rSection}
+ 
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Strengths}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Computer Languages & Python, C, C++, \\%Rust, Erlang, Go, Dart, Lua \\
+Frameworks & Flask, Django, Dash,  Pytorch, Keras\\
+Protocols \& APIs & XML, JSON, SOAP, REST \\
+%Databases & MySQL, PostgreSQL \\
+Tools & Docker, Nginx, nano, vim
+\end{tabular}
+
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	TALKS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Talks and Sessions}
+
+$*$ \textbf{PyCon India 2018} - "Through Python to the Stars", a talk on poliastro - a python library for orbital mechanics at HICC, Hyderabad, India
+
+$*$ \textbf{Python in Astronomy 2019} - "Python at the speed of light : Simulating relativity using EinsteinPy", a talk on The EinsteinPy Project!  at Space Telescope Science Institute, Baltimore, USA
+
+$*$ \textbf{Python in Astronomy 2019} - "Looking at a black hole using Python", a talk on how Deep Learning can be used to generate black hole image contrary to what was used in recent release of black hole image by EHT  at Space Telescope Science Institute, Baltimore, USA
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+ \end{document}

@@ -1,0 +1,337 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper]{deedy-resume-openfont}
+%\newgeometry{paperwidth=8.27in,paperheight=11.69in}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{}{Shreyas Bapat}{ \urlstyle{same}\url{https://shreyasb.com} \\
+\href{mailto:b16145@students.iitmandi.ac.in}{b16145@students.iitmandi.ac.in} | \href{mailto:bapat.shreyas@gmail.com}{bapat.shreyas@gmail.com} | (+91) 913 185 1172
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Indian Institute of  Technology Mandi}
+\descript{B.Tech. in Electrical Engineering}
+\location{Expected Jun 2020 | Mandi, India \\Cum. GPA: 7.34}
+- Awarded a Travel Grant to Attend Python in Astronomy 2019 in USA. 
+\sectionsep
+
+
+%\descript{BS in Computer Science}
+%\location{Expected May 2014 | Ithaca, NY}
+%Conc. in Software Engineering \\
+%College of Engineering \\
+%Dean's List (All Semesters) \\
+%\location{ Cum. GPA: 3.92 / 4.0 \\
+%Major GPA: 3.94 / 4.0}
+%\sectionsep
+
+%\subsection{Miss Hill H. Sec. School}
+%\descript{Class XII}
+%\location{Grad. March 2016 |  Gwalior, India \\ Central Board of Secondary Education \\ Percentage : 93.4\%}
+%\sectionsep
+
+%\subsection{Kendriya Vidyalaya No. 1}
+%\descript{Class X}
+%\location{Grad. March 2014 |  Gwalior, India \\ Central Board of Secondary Education \\ CGPA : 10}
+%\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+GitHub:// \href{https://github.com/shreyasbapat}{\custombold{shreyasbapat}} \\
+LinkedIn://  \href{https://www.linkedin.com/in/shreyasbapat}{\custombold{shreyasbapat}} \\
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Deep Learning and it's Applications\\
+Pattern Recognition\\
+Artificial Intelligence\\
+Data Structures and Algorithms\\
+System Practicum\\
+Communicating Distributed Processes\\
+Computer Organisation\\
+Signals and Systems
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+Python \textbullet{}  C++ \textbullet{} C \textbullet{}
+Flutter \\ 
+\subsection{Web Development}
+%\location{Intermediate:}
+Flask \textbullet{}  Dash \textbullet{} CSS3 \textbullet{} HTML\\
+%\location{Beginner:}
+Sphinx \textbullet{} Django\\
+%\sectionsep
+\subsection{Tools/Markup}
+%\location{Tools:}
+pipenv  \textbullet{} Docker\textbullet{} 
+git \textbullet{}  virtualenv \\  numba \textbullet{} Keras\textbullet{}
+%\location{Markup:}
+\LaTeX \textbullet{} ReStrctured Text \\
+\section{Awards}
+KVPY Scholar 2016-17\\
+Inter IIT Tech Meet - 3rd/23 (SCI)\\
+Mentor @ Astronomy Code Camp Delhi
+
+\section{Interests}
+Deep Learning\\
+Data Visualisation\\
+High Performance Computations\\
+Astrodynamics\\
+Software Development
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+\runsubsection{Siemens}
+\descript{| Software Research Intern }
+\location{Jun 2019 - Jul 2019 | Bengaluru, India}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Benchmarking performance of CycleGAN and MUNIT for Deep Style Transfer Learning.
+\item Implementing Coverage guided Fuzzing for Deep Neural Networks.
+\item Development of modules for finding Coverage of a network and implementing GradCAM (Class Activation Maps).
+\end{tightemize}
+
+\runsubsection{Siemens}
+\descript{| Software Research Intern }
+\location{Dec 2018 - Feb 2019 | Bengaluru, India}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Using generatative models for test data generation. Exploring active learning for automatic data labelling.
+\item Implementing CycleGAN for style transfer of images. 
+\item Implementing MUNIT for style transfer and comparison of both the approaches.
+\item Comparison of results between CycleGAN and MUNIT for same set of data.
+\end{tightemize}
+
+\runsubsection{Ankam}
+\descript{| Deep Learning Intern }
+\location{Aug 2018 - Nov 2018 | Mandi, India}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Implementing transfer learning to classify images of human eyes using ResNet50 for Diabetic Retinopathy Detection.
+%\item Will be setting up a REST API endpoint for users to upload images to the server.
+\end{tightemize}
+
+
+\runsubsection{poliastro}
+\descript{| Software Development Intern }
+\location{May 2018 - Aug 2018 | Mandi, India}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Implemented interactive 2D plotting, refactoring the plotting module to create backends and orbit simulation. Fixed hyperbolic orbits.
+\item Developed module being used by scientists in ESA (European Space Agency) to simulate orbits of various objects in space.
+
+\end{tightemize}
+%\sectionsep
+
+%\runsubsection{Google}
+%\descript{| Software Engineering Intern }
+%\location{May 2013 – Aug 2013 | Mountain View, CA}
+%\begin{tightemize}
+%\item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
+%\sectionsep
+
+%\runsubsection{Phabricator}
+%\descript{| Open Source Contributor \& Team Leader}
+%\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+%\begin{tightemize}
+%\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+%\sectionsep
+
+\section{Publications}
+
+\runsubsection{Projecthiko 1.O - The Voice and Internet Enabled Smart Home}
+\descript{| Co-Author}
+\location{June 2017 | IJETSR ISSN: 2394-3386}
+Cost Reduction in home automation. Used flask for handling backend. Implemented Speech Recognition.  
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+%\runsubsection{VLBI Image Reconstruction}
+%\descript{| Undergraduate Research}
+%\location{June 2018 – Present | Mandi, India}
+%Reconstruction of Radio Sprectrum Data taken by Event Horizon Telescope using Deep Learning. Currently using Autoencoders. 
+%Technologies Used: Python, Keras, Tensorflow. 
+%\sectionsep
+
+\runsubsection{Ego-Nonego Video Detection}
+\descript{| Undergraduate Research}
+\location{Feb 2018 - May 2018 | Mandi, India}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Video Classification on the basis of position of camera. \item Implemented a Autoencoder to create Optical Flows by taking video frames. Used ResNet50 for classification.
+\item Technologies Used: Python, matplotlib, MATLAB, Keras, Tensorflow.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Fabric Detection}
+\descript{| Undergraduate Research}
+\location{Nov 2017- Jan 2018| Mandi, India}
+\begin{tightemize}
+\item Implemented Transfer Learning to train an encoder to reduce dimensions of microscopic fabric images. \item Used Fully Connected Layers to classify the bottlenecks. Used tSNE to cluster the various classes. Technologies Used: Python, Keras.
+\end{tightemize}
+%\sectionsep
+
+%\runsubsection{Poliastro/poliastro}
+%\descript{| Open Source Contributor}
+%\location{Jan 2018 – Present | Mandi, India}
+%Contributed to a Open Source Python library, \textbf{\href{http://github.com/poliastro/poliastro}{Poliastro}} - a library for orbital mechanics and related computations. 
+%\sectionsep
+
+
+\runsubsection{einsteinpy/einsteinpy}
+\descript{| Lead Developer}
+\location{Dec 2018 – Present | Mandi, India}
+\begin{tightemize}
+\item Author of a Python Library, \textbf{\href{http://github.com/einsteinpy/einsteinpy}{EinsteinPy}} - a library for computations related to general relativity and geodeic equations. Solving schwarzschild geometry in minutes! 
+\item Published as a Pypi Package.
+\end{tightemize}
+\sectionsep
+
+%\runsubsection{Exoplanet Detection}
+%\descript{| Developer}
+%\location{Jan 2018 | Chennai, India}
+%Used K-Neighbour Classifier to classify if a given time series light data is from a star having exoplanets or not. Implemented SMOTE. 
+%Technologies Used: Python, matplotlib, pandas, scipy.
+%\sectionsep
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Awards} 
+%\begin{tabular}{rll}
+%2013	     & 5th/7500  & Aryabhat Astronomy Quiz\\
+%2014	     & 2nd/8200  & Aryabhat Astronomy Quiz\\
+%2017	     & 1\textsuperscript{st}  & Technex-Exploring the Interstellar, IIT BHU\\
+%2017	     & 4\textsuperscript{th}  & Eyes on the Sky - Inter IIT Tech Meet, IIT Kanpur\\
+%2017     & Presented a paper & International Conference ICETSMI at IETE, Delhi  \\
+%2018     & 5\textsuperscript{th} & Orbital Simulator - Inter IIT Tech Meet, IIT Madras \\
+%\end{tabular}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Positions of Responsibility} 
+\runsubsection{Co-ordinator}
+\descript{| Space Technology and Astronomy Cell}
+\location{June 2017 - May 2018 | Mandi, India}
+Awarded as Best SnTC Coordinator for 2018-19.
+\sectionsep
+
+\end{minipage} 
+\end{document}
